@@ -21,10 +21,12 @@
     - Le `<header>` et le `<footer>` ne doivent pas être modifiés
     - Le logo est stocké dans le répertoire `img`
 - **Un fichier CSS (www/css/purchases.css)**. Il contient les couleurs à utiliser pour votre formulaire. Vous ne devez pas modifier les valeurs de ces couleurs dans ce fichier.
-    - Renseignez votre Nom et Prénom à l'endroit aproprié
+    - Renseignez votre Nom et Prénom à l'endroit approprié
     - Utilisez uniquement les couleurs définies dans les variables (aucune autre couleur acceptée).
     - Utilisez **obligatoirement** les 2 couleurs : `--crm-primary` et `--crm-secondary`.
     - Les autres couleurs sont optionnelles mais recommandées pour une meilleure expérience utilisateur.
+
+> Aucun des fichiers fournis ne doit être renommé 
 
 # 2. Contenu du Formulaire
 
@@ -119,3 +121,5 @@ Si vous avez terminé et qu'il vous reste du temps, vous pouvez ajouter quelques
 3. Vérifier que la date de livraison est au moins 8 jours dans le futur
 4. Calculer le total de la commande et l'afficher sous le formulaire dans une balise `<aside>`
 5. Si le montant de la commande est supérieur à 1000€, afficher le message "*[NOM PRENOM], Votre demande a été transmise au service financier pour validation*", Sinon afficher "*Merci [NOM PRENOM], votre demande a été transmise au service des achats*"
+
+En cas d'erreur, afficher un message approprié sous le formulaire. Ce message doit aparaître avec la couleur `--crm-alert` (couleur de texte OU couleur d'arrière plan, au choix).
